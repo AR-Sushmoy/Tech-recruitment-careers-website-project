@@ -29,7 +29,7 @@ JOBS = [
 ]
 
 @app.route("/")
-def open():
+def home():
   return render_template('home.html',
                          jobs=JOBS,
                         company_name='Horizon')
